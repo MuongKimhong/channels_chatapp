@@ -1,5 +1,5 @@
 # channels_chatapp
-This project is a chat web application and the purpose of this project is to practice django channels and django rest framework.
+This project is a chat web application and the purpose of this project is to practice [django channels](https://github.com/django/channels) and [django rest framework](https://www.django-rest-framework.org/).
 
 ## clone project
 ```
