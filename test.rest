@@ -1,0 +1,15 @@
+POST http://localhost:8000/api/all-messages/
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjE3MTc4NTQ3LCJqdGkiOiI4ZGYyNTRlZDRlMmU0NWFjYTA0YzZhMGFlODUzN2I0NCIsInVzZXJfaWQiOjF9.ELP_1BI5c3OnI5EIa3lgfkH-On-h8lUkP81EEMo2Ky8
+
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="text"
+
+title
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="image"; filename="1.png"
+Content-Type: image/png
+
+< ./1.png
+------WebKitFormBoundary7MA4YWxkTrZu0gW--
+
